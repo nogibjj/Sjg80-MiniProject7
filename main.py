@@ -10,6 +10,30 @@ def create_connection(db_file):
     except sqlite3.Error as e:
         print(e)
 
+# Function to create the 'users' table if it doesn't exist
+def create_table(conn):
+    try:
+        cursor = conn.cursor()
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS users (
+                id INTEGER PRIMARY KEY,
+                username TEXT NOT NULL,
+                email TEXT NOT NULL
+            )
+        ''')
+    except sqlite3.Error as e:
+        print(e)
+
+# Function to insert a new user into the database
+def insert_user(conn, username, email):
+    try:
+        cursor = conn.cursor()
+        cursor.execute("INSERT INTO users (username, email) VALUES (?, ?)",
+                        (username, email))
+        conn.commit()
+    except sqlite3.Error as e:
+        print(e)
+
   def main(database_file):
     connection = create_connection(database_file)
     if connection:
