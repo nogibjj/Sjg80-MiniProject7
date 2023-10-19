@@ -40,8 +40,6 @@ def insert_user(conn, username, email):
         create_table(connection)
         # Create a new user
         insert_user(connection, "JohnDoe", "john@example.com")
-        # Read a user
-        user = get_user_by_username(connection, "JohnDoe")
         if user:
             print("User found:", user)
   
