@@ -33,7 +33,7 @@ def insert_user(conn, username, email):
     except sqlite3.Error as e:
         print(e)
 
-  def main(database_file):
+def main(database_file):
     connection = create_connection(database_file)
     if connection:
         create_table(connection)
