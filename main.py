@@ -1,5 +1,4 @@
 import sqlite3
-import click
 
 # Function to create a database connection
 def create_connection(db_file):
@@ -40,8 +39,6 @@ def insert_user(conn, username, email):
         create_table(connection)
         # Create a new user
         insert_user(connection, "JohnDoe", "john@example.com")
-        if user:
-            print("User found:", user)
   
         connection.close()
 
