@@ -22,8 +22,5 @@ setup(
     uvicorn==0.18.3,
     #data
     pandas == 2.1.0,
-    
-    #rust based linter
-    boto3==1.24.87,
       ],
 )
