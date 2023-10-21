@@ -1,20 +1,10 @@
 # Sjg80-MiniProject7
 Package a Python Script into a Command-Line Tool 
 
-Certainly! Here's a sample README.md file for your command-line tool:
-
 ```markdown
 # My Command-Line Tool
 
 My Command-Line Tool is a Python script that allows you to manage a SQLite database of users from the command line. It provides functionality for creating a database, adding users, and performing various database operations.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Options](#options)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
