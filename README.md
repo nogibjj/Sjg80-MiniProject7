@@ -1,9 +1,6 @@
 # Sjg80-MiniProject7
 Package a Python Script into a Command-Line Tool 
 
-```markdown
-# My Command-Line Tool
-
 My Command-Line Tool is a Python script that allows you to manage a SQLite database of users from the command line. It provides functionality for creating a database, adding users, and performing various database operations.
 
 ## Installation
