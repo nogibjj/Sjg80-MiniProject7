@@ -9,7 +9,7 @@ To use My Command-Line Tool, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/my-command-line-tool.git](https://github.com/nogibjj/Sjg80-MiniProject7V2/tree/main)
+   git clone (https://github.com/nogibjj/Sjg80-MiniProject7V2/tree/main)
    cd my-command-line-tool
    ```
 
