@@ -37,7 +37,7 @@ def main(database_file):
     connection = create_connection(database_file)
     if connection:
         create_table(connection)
-        print("Succesful connection:", user)
+        print("Succesful connection:")
         # Create a new user
         insert_user(connection, "JohnDoe", "john@example.com")
         print("New user added:")
