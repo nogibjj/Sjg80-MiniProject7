@@ -24,7 +24,6 @@ setup(
     pandas == 2.1.0,
     
     #rust based linter
-    ruff==0.0.284,
     boto3==1.24.87,
       ],
 )
