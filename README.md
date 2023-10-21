@@ -1,4 +1,6 @@
 # Sjg80-MiniProject7
+[![CI](https://github.com/nogibjj/Sjg80-MiniProject7/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Sjg80-MiniProject7/actions/workflows/cicd.yml)
+
 Package a Python Script into a Command-Line Tool 
 
 My Command-Line Tool is a Python script that allows you to manage a SQLite database of users from the command line. It provides functionality for creating a database, adding users, and performing various database operations.
