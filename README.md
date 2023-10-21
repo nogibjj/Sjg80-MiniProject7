@@ -41,3 +41,5 @@ My Command-Line Tool is simple to use. Here are the basic commands:
 - `create_db`: Create a new database file.
 - `add_user`: Add a new user to the database.
 - `operate`: Perform various database operations.
+
+https://github.com/nogibjj/Sjg80-MiniProject7/blob/bfc3d20986dee03dda017c6e5dbba666e9ce2954/images/Captura%20de%20pantalla%202023-10-21%20a%20la(s)%201.38.06%20p.m..png
